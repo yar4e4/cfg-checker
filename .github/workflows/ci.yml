@@ -23,7 +23,7 @@ jobs:
       run: go mod tidy
 
     - name: Build binary
-      run: go build -o validator main.go
+      run: go build -o bin/validator main.go
 
     - name: Set up Python
       uses: actions/setup-python@v5
