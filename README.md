@@ -122,5 +122,5 @@ pytest -v
     ├── tests/
     │   ├── conftest.py
     │   ├── test_validator.py
-    │   └── data/
+    │   └── data/             # тестовые YAML-файлы
     └── bin/                  # собранный бинарник (после запуска)
