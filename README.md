@@ -1,5 +1,7 @@
 # Config Checker
 
+[![CI](https://github.com/yar4e/config-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/yar4e/config-validator/actions/workflows/ci.yml)
+
 CLI-инструмент на Go + Python для валидации YAML-конфигураций.\
 Проверяет наличие обязательных полей и корректность значений (например,
 `version`, `host`, `port`).
