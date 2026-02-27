@@ -26,8 +26,8 @@ CLI-инструмент на Go + Python для валидации YAML-кон�
 ## Установка
 
 ``` bash
-git clone https://github.com/your_username/config-checker.git
-cd config-checker
+git clone https://github.com/yar4e4/cfg-checker.git
+cd cfg-checker
 go mod tidy
 ```
 
@@ -38,7 +38,7 @@ go mod tidy
 ### Прямой способ
 
 ``` bash
-go build -o validator main.go
+go build -o bin/validator main.go
 ```
 
 ### Через Makefile (рекомендуется)
@@ -52,7 +52,7 @@ make build
 ## Использование
 
 ``` bash
-./validator path/to/config.yaml
+./bin/validator path/to/config.yaml
 ```
 
 ------------------------------------------------------------------------
@@ -62,7 +62,7 @@ make build
 ### Успешная проверка
 
 ``` bash
-./validator tests/data/valid.yaml
+./bin/validator tests/data/valid.yaml
 ```
 
 Вывод:
@@ -72,7 +72,7 @@ make build
 ### Ошибка валидации
 
 ``` bash
-./validator tests/data/missing_version.yaml
+./bin/validator tests/data/missing_version.yaml
 ```
 
 Вывод:
