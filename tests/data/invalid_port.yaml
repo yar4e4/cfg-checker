@@ -1,0 +1,3 @@
+version: "1.0"
+host: bad.host
+port: 99999

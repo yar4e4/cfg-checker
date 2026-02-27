@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Go binaries
+validator
+validator.exe
+bin/
+checker
+checker.exe
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Misc
+*.log
