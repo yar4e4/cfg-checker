@@ -121,6 +121,8 @@ pytest -v
     ├── go.mod
     ├── go.sum
     ├── Makefile
+    ├── README.md
+    ├── .gitignore
     ├── tests/
     │   ├── conftest.py
     │   ├── test_validator.py
