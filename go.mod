@@ -1,4 +1,4 @@
-module github.com/yourname/config-validator
+module github.com/yar4e4/cfg-checker
 
 go 1.22
 
